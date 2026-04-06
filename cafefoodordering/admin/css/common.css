@@ -1,0 +1,52 @@
+:root{
+    --teal:rgb(41, 170, 151);
+    --teal_hover:rgb(23, 97, 86);
+}
+*{
+    font-family: "Roboto", sans-serif;
+}
+.h{
+    font-family: "Playfair Display", serif;
+}
+.custom-bg{
+    background-color:var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+    background-color:var(--teal_hover);
+    border:var(--teal_hover);
+}
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+}
+@media screen and (max-width: 990px) {
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+    #main-contant{
+        margin-top: 60px;
+    }
+}
+.scrollable-table {
+    max-height: 1000px; 
+    overflow-y: auto;  
+    display: block;
+}
+.table tbody {
+    max-height: 400px; 
+    overflow-y: scroll;
+}
+    thead {
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+}
+            

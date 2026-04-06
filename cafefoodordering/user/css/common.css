@@ -1,0 +1,20 @@
+:root{
+    --teal:rgb(41, 170, 151);
+    --teal_hover:rgb(23, 97, 86);
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+.h{
+    font-family: "Playfair Display", serif;
+}
+
+.custom-bg{
+    background-color:var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+    background-color:var(--teal_hover);
+    border:var(--teal_hover);
+}
